@@ -1,11 +1,11 @@
 langgraph
 langchain
 langchain-core
-langchain-groq #for groq api
-langchain-huggingface  #for embeddings model
-langchain-pinecone #vector database
+langchain-groq
+langchain-huggingface
+langchain-pinecone
 langchain-community
-langchain-text-splitter
+langchain-text-splitters
 langchain-tavily
 pinecone
 sentence-transformers
