@@ -1,16 +1,18 @@
-# NovaRetail Internal IT Support Handbook
+# DeskPilot Demo Organization: Internal IT Handbook
 
-## VPN Access
-Employees working outside the office must use the company VPN before accessing internal systems. Install the NovaSecure VPN client from the internal Software Portal. Sign in with your company email and password, complete MFA, and select the closest corporate gateway. If the connection fails, first confirm internet connectivity, restart the client, and try another corporate gateway. Do not disable endpoint security or firewall settings to make the VPN work. If the problem remains, open an IT ticket with a screenshot of the error.
+This sample handbook contains fictional IT policies for demonstrating DeskPilot. Replace it with approved organization-specific guidance before using the assistant for real support.
 
-## Password Reset Policy
-Company passwords must be at least 14 characters. Employees should use the self-service identity portal for normal password resets. After five failed login attempts, the account may be temporarily locked. If self-service recovery fails, contact IT Service Desk. Employees must never share passwords or MFA codes with support personnel.
+## Remote Access and VPN
+Employees working outside the office must connect through the organization-approved VPN before accessing internal systems. Install the VPN client from the company Software Portal. Sign in with the company account, complete multi-factor authentication, and select the recommended corporate gateway. If the connection fails, verify internet access, restart the client, and try another approved gateway. Do not disable endpoint protection or firewall settings. If the issue continues, open an IT ticket and include the displayed error and approximate time.
+
+## Password Reset
+Company passwords must contain at least 14 characters. Use the self-service identity portal for routine password resets. After five failed sign-in attempts, an account may be temporarily locked. If self-service recovery does not work, contact the IT Service Desk. Never share a password or multi-factor authentication code, including with someone claiming to be support staff.
 
 ## Multi-Factor Authentication
-MFA is mandatory for email, VPN, cloud administration, and other protected company systems. The approved methods are the company authenticator app and registered hardware security keys. SMS should only be used when explicitly enabled as a recovery method.
+Multi-factor authentication is required for email, VPN, cloud administration, and other protected systems. Approved methods are the organization-managed authenticator app and registered hardware security keys. SMS may be used only when the identity team has explicitly enabled it as a recovery method. Report unexpected approval prompts to the IT Service Desk immediately.
 
 ## Software Installation
-Employees should install business software only from the company Software Portal. Requests for software not listed in the portal require manager approval and IT security review. Administrator access is not granted simply to install unapproved applications.
+Install business software only from the company Software Portal. Requests for software that is not listed require manager approval and IT security review. Local administrator access is not granted solely to install unapproved applications.
 
-## Lost or Stolen Laptop
-Immediately report a lost or stolen company laptop to the IT Service Desk and your manager. Provide the device asset tag if available and the last known location. IT will initiate device lock/wipe procedures and coordinate with Security. Do not attempt to remotely recover the device yourself.
+## Lost or Stolen Device
+Report a lost or stolen company device to the IT Service Desk and your manager as soon as possible. Include the asset tag, if available, and the last known location. IT will coordinate device lock or wipe actions with Security. Do not try to recover the device remotely yourself.

@@ -9,6 +9,10 @@ class RouteDecision(BaseModel):
 class EvidenceGrade(BaseModel):
     grade: Literal["good", "weak"] = Field(description="Whether evidence is sufficient to answer")
 
+class KBAnswerAssessment(BaseModel):
+    grade: Literal["good", "weak"] = Field(description="Whether private KB evidence is sufficient")
+    answer: str = Field(description="Grounded answer when evidence is good; empty when evidence is weak")
+
 class AgentState(TypedDict):
     question: str
     current_query: str
