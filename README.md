@@ -160,24 +160,7 @@ Open the local URL printed by the server. FastAPI's interactive API documentatio
 
 The repository includes fictional demo documents under `data/sample_kb/`. Replace them with approved organization content before using DeskPilot with real users.
 
-## 📸 Screenshots / Demo
 
-No live demo or product screenshots are configured yet. The repository contains a previous architecture image in `extra/`; review it against the current Gemini-based implementation before presenting it as current documentation.
-
-## 🧪 Testing
-
-There is no automated test suite in the repository yet. Before relying on the assistant, add tests for routing, ingestion, evidence grading, citation handling, fallback, and abstention.
-
-## 📊 Evaluation and Results
-
-No benchmark results are currently recorded. Evaluate with a fixed set of realistic IT questions and report:
-
-- **Dataset:** Number and categories of questions, including questions that should be answered and questions that should be refused.
-- **Baseline:** Existing search or the previous workflow version.
-- **Quality metrics:** Retrieval recall, answer correctness, citation support, and abstention quality.
-- **Latency metrics:** End-to-end and per-stage p50/p95 time, separated into greeting, private-KB, and web-fallback requests.
-- **Results:** Add measured values only after running the evaluation; do not infer performance from the design.
-- **Limitations:** Record weak retrieval cases, stale source content, and any unsupported file or policy scenarios.
 
 ## 🔒 Security and Privacy
 
@@ -219,13 +202,12 @@ Contributions are welcome. Open an issue to discuss a change, then submit a pull
 - Existing embeddings must be regenerated when changing embedding models or dimensions.
 - Latency and answer-quality improvements have not yet been measured with a repeatable benchmark.
 
-## 📄 License
-
-No license file is currently included. Add a license before distributing or accepting external contributions.
 
 ## 👤 Author
 
-Add your name and profile links here before publishing the repository.
+**Krishna Singh**
+
+- GitHub: [@Drag0nop](https://github.com/Drag0nop)
 
 ## 🙌 Acknowledgements
 
